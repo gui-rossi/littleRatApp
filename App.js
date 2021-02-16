@@ -1,17 +1,25 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import BackgroundImage from './src/components/BackgroundImage/BackgroundImage';
+import Button from './src/components/Button/Button';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Bem Vindo Douglas Signori</Text>
+    <View style={style.container}>
+      
+      <BackgroundImage />
+
+      <Button
+        text="Uepá"
+      />
+      
       <StatusBar style="auto" />
     </View>
   );
 }
 
-const styles = StyleSheet.create({
+const style = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
