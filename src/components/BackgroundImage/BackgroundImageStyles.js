@@ -6,6 +6,7 @@ const BackgroundImageStyles = StyleSheet.create({
       height: '100%',
       position: 'absolute',
       resizeMode: 'cover',
+      opacity: 0.75,
     },
 });
 
