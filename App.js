@@ -184,6 +184,6 @@ const style = StyleSheet.create({
     width: '100%',
   },
   scrollView: {
-    height: '30%',
+    height: '40%',
   }
 });

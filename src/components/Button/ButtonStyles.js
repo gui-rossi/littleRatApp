@@ -5,20 +5,15 @@ const ButtonStyles = StyleSheet.create({
         width: '100%',
         paddingLeft: 35,
         paddingRight: 35,
-        paddingBottom: 15,
-        paddingTop: 10,
+        paddingBottom: 9,
+        paddingTop: 9,
     },
     button: {
-        backgroundColor: 'yellow',
+        backgroundColor: 'rgb(255, 191, 0)',
         borderRadius: 8,
         padding: 10,
         justifyContent: 'center',
         alignItems: 'center',
-    },
-    text: {
-        color: 'black',
-        fontSize: 18,
-        fontWeight: '100',
     }
 });
 

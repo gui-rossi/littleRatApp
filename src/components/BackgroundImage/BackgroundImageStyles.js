@@ -7,6 +7,10 @@ const BackgroundImageStyles = StyleSheet.create({
       position: 'absolute',
       resizeMode: 'cover',
       opacity: 0.75,
+      marginLeft: 24,
+      marginRight: 24,
+      marginTop: 16,
+      marginBottom: 16,
     },
 });
 
