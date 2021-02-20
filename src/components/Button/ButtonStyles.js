@@ -14,6 +14,13 @@ const ButtonStyles = StyleSheet.create({
         padding: 10,
         justifyContent: 'center',
         alignItems: 'center',
+    },
+    release: {
+        backgroundColor: 'rgb(255, 255, 0)',
+        borderRadius: 8,
+        padding: 10,
+        justifyContent: 'center',
+        alignItems: 'center',
     }
 });
 
