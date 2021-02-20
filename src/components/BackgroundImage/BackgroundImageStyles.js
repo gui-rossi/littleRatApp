@@ -11,6 +11,7 @@ const BackgroundImageStyles = StyleSheet.create({
       marginRight: 24,
       marginTop: 16,
       marginBottom: 16,
+      backgroundColor: 'red',
     },
 });
 
